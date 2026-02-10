@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+   <h1><strong> Registration Form</strong></h1>
+    <div class="form-box">
+       
+        <form onsubmit="return validateForm()">
+
+            <!-- First Name -->
+            <label>First Name</label>
+            <input type="text" id="firstName" placeholder="e.g: Ria"  >
+
+            <!-- Last Name -->
+            <label>Last Name</label>
+            <input type="text" id="lastName" placeholder="e.g: Shetty"  >
+
+            <!-- Date of Birth -->
+            <label>Date of Birth</label>
+            <input type="date" id="dob" >
+
+            <!-- Email -->
+            <label>Email</label>
+            <input type="email" id="email" placeholder="e.g: riashetty1@something.com" >
+
+            <!-- Phone Number -->
+            <label>Phone Number</label>
+            <input type="tel" id="phone" >
+
+            <label>Gender: </label>
+            <select name="gender" id="gender" >
+              <option value="">Select Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+    
+<script src="../js/script.js"></script>
+</body>
+</html>

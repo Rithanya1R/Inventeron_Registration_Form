@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background-color: #81c1f2;
+    padding: auto;
+}
+
+.container, .form-box {
+    background-color: white;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+  margin-top: 50px;
+    text-align: center;
+    font: 3em times ;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 96%;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
